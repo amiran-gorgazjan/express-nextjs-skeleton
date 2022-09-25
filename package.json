@@ -1,0 +1,34 @@
+{
+  "name": "express-nextjs-skeleton",
+  "version": "1.0.0",
+  "description": "An Express setup running Next.js programmatically to provide full dynamic API capabilities",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amiran-gorgazjan/express-nextjs-skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amiran-gorgazjan/express-nextjs-skeleton/issues"
+  },
+  "homepage": "https://github.com/amiran-gorgazjan/express-nextjs-skeleton#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.20",
+    "@types/react": "18.0.21",
+    "typescript": "4.8.3"
+  }
+}
